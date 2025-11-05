@@ -1,0 +1,30 @@
+* /*Elemento para mexer na página*/{
+    padding: 0; /*Mexe na distancia interna da borda*/
+    margin: 0; /*Mexe na distancia externa da borda*/
+    background-color: #1a1a1a; /*Cor de fundo da página*/
+}
+
+
+li a /*Elemento para mexer nos links dentro da lista*/{
+    text-decoration: none; /*Tira o sublinhado*/
+    font-size: 40px; 
+    color : #ffffff; /*Cor da fonte*/
+    
+    
+}
+
+li /*Elemento para mexer na lista*/{
+    list-style: none; /*Tira o marcador da lista*/
+    
+}
+
+#logo{
+    height:100px;
+    width: 180px;
+}
+
+ul{
+    display: flex; /*Transforma a lista em flexbox*/
+    flex-direction: row; /*Deixa os itens da lista em linha*/
+    padding: 30px;
+}
