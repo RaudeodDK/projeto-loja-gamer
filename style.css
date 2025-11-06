@@ -1,14 +1,19 @@
 * /*Elemento para mexer na página*/{
     padding: 0; /*Mexe na distancia interna da borda*/
     margin: 0; /*Mexe na distancia externa da borda*/
-    background-color: #1a1a1a; /*Cor de fundo da página*/
 }
 
+body{
+    /* background-color: #1a1a1a; Cor de fundo da página */
+    /* background-color: #1a1a1a; Cor de fundo da página */
+background-color: #1a1a1a;
+}
 
 li a /*Elemento para mexer nos links dentro da lista*/{
     text-decoration: none; /*Tira o sublinhado*/
-    font-size: 40px; 
+    font-size: 20px; 
     color : #ffffff; /*Cor da fonte*/
+    padding: 20px;
     
     
 }
@@ -19,12 +24,26 @@ li /*Elemento para mexer na lista*/{
 }
 
 #logo{
-    height:100px;
-    width: 180px;
+    height:90px;
+    width: 140px;
 }
 
 ul{
     display: flex; /*Transforma a lista em flexbox*/
     flex-direction: row; /*Deixa os itens da lista em linha*/
-    padding: 30px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ffffff;
+    
+}
+
+.caixa-img-logo{
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+
 }
