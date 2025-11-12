@@ -1,49 +1,72 @@
-* /*Elemento para mexer na página*/{
-    padding: 0; /*Mexe na distancia interna da borda*/
-    margin: 0; /*Mexe na distancia externa da borda*/
+*/*Elemento para mexer na página*/
+    {
+    padding: 0;
+    /*Mexe na distancia interna da borda*/
+    margin: 0;
+    /*Mexe na distancia externa da borda*/
 }
 
-body{
+body {
     /* background-color: #1a1a1a; Cor de fundo da página */
     /* background-color: #1a1a1a; Cor de fundo da página */
-background-color: #1a1a1a;
+    background-color: #1a1a1a;
 }
 
-li a /*Elemento para mexer nos links dentro da lista*/{
-    text-decoration: none; /*Tira o sublinhado*/
-    font-size: 20px; 
-    color : #ffffff; /*Cor da fonte*/
+li a/*Elemento para mexer nos links dentro da lista*/
+    {
+    text-decoration: none;
+    /*Tira o sublinhado*/
+    font-size: 20px;
+    color: #ffffff;
+    /*Cor da fonte*/
     padding: 20px;
-    
-    
+
+
 }
 
-li /*Elemento para mexer na lista*/{
-    list-style: none; /*Tira o marcador da lista*/
-    
+li/*Elemento para mexer na lista*/
+    {
+    list-style: none;
+    /*Tira o marcador da lista*/
+
 }
 
-#logo{
-    height:90px;
-    width: 140px;
+#logo {
+    height: 90px;
+    width: 160px;
 }
 
-ul{
-    display: flex; /*Transforma a lista em flexbox*/
-    flex-direction: row; /*Deixa os itens da lista em linha*/
+ul {
+    display: flex;
+    /*Transforma a lista em flexbox*/
+    flex-direction: row;
+    /*Deixa os itens da lista em linha*/
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #ffffff;
-    
+    justify-content: space-evenly;
 }
 
-.caixa-img-logo{
-    background-color: aqua;
+.caixa-img-logo {
     height: 90px;
     width: 90px;
+
+}
+
+.bi {
+    font-size: 35px;
+    color: #4c544c;
+}
+
+.banner {
+    background-image: url("./assets/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 800px;
+    border-radius: 25px;
 
 }
