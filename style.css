@@ -57,7 +57,7 @@ ul {
 }
 
 .bi {
-    font-size: 35px;
+    font-size: 30px;
     color: #4c544c;
 }
 
@@ -67,6 +67,86 @@ ul {
     background-size: cover;
     height: 500px;
     width: 800px;
-    border-radius: 25px;
+    border-radius: 15px;
+    display: flex; /*indica a propriedade flexbox*/
+    align-items: center; /*alinha verticalmente ao centro*/
 
+}
+
+.texto-banner{
+    font-size: 25px; /*tamanho da fonte*/
+    color: #ffffff;
+}
+.btn-menu{
+    width: 145px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #333333;
+    color: #ffffff; /* Cor do texto branca */
+    font-weight: bold; /* Negrito */
+    border: none; /* Remove a borda padrão */
+    font-size: 19px;
+    margin: 25px; /* espaçamento em todas as direcoes externas*/
+}
+.caixa-texto-banner{
+  width: 220px; 
+  padding: 35px; /*espaçamento interno*/
+
+}
+
+.section-center{
+display: flex;
+justify-content: center; /*muda posiçao da caixa*/
+
+}
+
+.titulo-primario{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight:700;
+    padding: 20px;
+}
+
+.estutura-titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.produtos {
+    height: 350px;
+    width: 190px;
+    
+}
+.valor {
+    
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.cores{
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+.laranja{
+    background-color: orange;
+}
+.preto{
+    background-color: black;
+}
+
+.caixa-cores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100px;
 }
