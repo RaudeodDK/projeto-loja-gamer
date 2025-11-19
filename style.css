@@ -148,5 +148,55 @@ justify-content: center; /*muda posiçao da caixa*/
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100px;
+    gap: 10px;
+    
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+.texto-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-xbox {
+    background-image: url("./assets/x-box.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1250px;
+    display: flex;
+    justify-content: flex-end; /*alinha verticalmente ao centro*/
+    
+}
+
+.texto-xbox{
+    color: #ffffff;
+    font-size: 40px;
+    width: 500px;
+  }
+
+.caixa-banner-xbox{
+    width: 500px; 
+    padding: 35px 150px; /*espaçamento interno*/  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.btn-menu-xbox{
+    width: 140px;
+    height: 25px;
+    border-radius: 30px;
+    background-color: #341a10;
+    color: #ffffff; /* Cor do texto branca */
+    border: none; /* Remove a borda padrão */
+    font-size: 17px;
+    margin: 25px; /* espaçamento em todas as direcoes externas*/
 }
