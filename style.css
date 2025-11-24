@@ -165,38 +165,93 @@ justify-content: center; /*muda posiçao da caixa*/
 }
 
 .banner-xbox {
-    background-image: url("./assets/x-box.png");
+    background-image: url("./assets/xbox.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
-    width: 1250px;
+    border-radius: 10px;
+    height: 300px;
+    width: 800px;
     display: flex;
-    justify-content: flex-end; /*alinha verticalmente ao centro*/
+    align-items: start;
+    justify-content: end;
     
 }
 
 .texto-xbox{
     color: #ffffff;
-    font-size: 40px;
-    width: 500px;
-  }
+    font-size: 20px;
+    width: 250px;
+}
 
 .caixa-banner-xbox{
-    width: 500px; 
+    width: 20px; 
     padding: 35px 150px; /*espaçamento interno*/  
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-  
+    justify-content: center;
+    padding: 30px 250px;
 }
+
 .btn-menu-xbox{
-    width: 140px;
-    height: 25px;
+    width: 100px;
+    height: 15px;
     border-radius: 30px;
     background-color: #341a10;
     color: #ffffff; /* Cor do texto branca */
     border: none; /* Remove a borda padrão */
-    font-size: 17px;
-    margin: 25px; /* espaçamento em todas as direcoes externas*/
+    font-size: 11px;
+    margin: 10px; /* espaçamento em todas as direcoes externas*/
+    font-weight: bold;
+}
+
+.caixa-footer{
+    background-color: #333333;
+    font-size: 15px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.caixa-lista-rodape{
+    background-color: #341a10;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    height: 150px;
+    width: 100%;
+
+}
+.caixa-recursos{
+    background-color: #4c544c;
+}
+.caixa-econtact{
+    background-color: #808080;
+}
+
+.texto-lista{
+    background-color: blue;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+.caixa-texto-rodape{
+    background-color: aquamarine;
+    color: #ffffff;
+    display: flex;
+    
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+}
+
+.logo-rodape{
+    background-color: #ff0000;
+    height: 30px;
+    width: 30px;
+    
+}
+.icones-texto-rodape{
+    background-color: blueviolet;
 }
