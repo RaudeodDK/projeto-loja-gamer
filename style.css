@@ -8,7 +8,6 @@
 
 body {
     /* background-color: #1a1a1a; Cor de fundo da página */
-    /* background-color: #1a1a1a; Cor de fundo da página */
     background-color: #1a1a1a;
 }
 
@@ -31,9 +30,9 @@ li/*Elemento para mexer na lista*/
 
 }
 
-#logo {
-    height: 90px;
-    width: 160px;
+.logo {
+    height: 85px;
+    width: 170px;
 }
 
 ul {
@@ -206,52 +205,103 @@ justify-content: center; /*muda posiçao da caixa*/
 }
 
 .caixa-footer{
-    background-color: #333333;
+    background-color: #222222;
     font-size: 15px;
-    width: 100%;
-    height: 500px;
+    width: 1000px;
+    height: 100px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;   
+    justify-content: flex-start;
+    padding: 30px 20px;
 }
-.caixa-lista-rodape{
+
+.caixa-recursos{
     background-color: #341a10;
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    height: 150px;
-    width: 100%;
+    flex-direction: column;
 
 }
-.caixa-recursos{
-    background-color: #4c544c;
-}
-.caixa-econtact{
-    background-color: #808080;
-}
 
-.texto-lista{
-    background-color: blue;
-    color: #ffffff;
+
+.titulo-rodape{
+    color: #4c544c;
     display: flex;
     flex-direction: column;
     width: 150px;
+    font-weight: bold;
+    font-size: 20px;
 }
-.caixa-texto-rodape{
-    background-color: aquamarine;
+
+.texto-rodape{
     color: #ffffff;
-    display: flex;
+    font-size: 15px;
+}
+.caixa-texto-descricao{
+    background-color: #333333;
+    color: #ffffff;
+    width:  1000px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
     
-    width: 800px;
-    height: 100px;
-    padding: 10px;
+}
+.texto-descricao{
+    font-size: 18px;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 250px;
 }
 
 .logo-rodape{
-    background-color: #ff0000;
-    height: 30px;
-    width: 30px;
+    background-color: aqua;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: flex-start ;
     
 }
-.icones-texto-rodape{
-    background-color: blueviolet;
+
+.texto-icones{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+    width: 800px;
+    align-items: center;
+    
+}
+
+.caixa-descricao-footer{
+    width: 950px;
+}
+
+.bi{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.final-footer{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 800px;
+    align-items: center;
+    justify-self: center;
+}
+
+.politicas-rodape{
+display: flex;
+flex-direction: row;
+gap: 8px;
+}
+
+
+.caixa-tudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
